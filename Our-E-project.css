@@ -1,0 +1,91 @@
+body{
+   background-color: #080808;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-img{
+    height: 18vh;
+}
+.visitors{
+    height: 10vh;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+.hero-img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+.hero-section{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.golden{
+    color: gold;
+}
+.hero-heading{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+.hero-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #C5A059;
+    margin-bottom: -5px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-p , .hero-p-2{
+    text-transform: capitalize;
+}
+.hero-p-2{
+    color: #E6E6E6;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.hero-btn{
+    padding: 5px 35px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: black;
+    background: radial-gradient(circle, #FFFDF9 0%, #E8D5B5 50%, #C5A059 100%);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hero-btn:hover .hero-btn-icon{
+    transform: translateX(10px);
+}
+.hero-btn-icon{
+    padding-left: 10px;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+nav a:hover{
+    color: gold;
+}
