@@ -89,3 +89,185 @@ nav a{
 nav a:hover{
     color: gold;
 }
+.nav-link-responsive a{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.nav-link-responsive{
+    display: flex;
+    flex-direction: column;
+}
+.responsive-nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+.offcanvas-btn{
+    background-color: gold;
+}
+/* mobile responsiveness */
+
+/* ========== MOBILE RESPONSIVE ========== */
+
+@media (max-width: 991px) {
+
+    /* Responsive Navbar */
+    .responsive-nav-section {
+        height: 65px;
+        padding: 0 15px;
+    }
+
+    .logo-img {
+        height: 65px;
+        width: auto;
+    }
+
+    .offcanvas-btn {
+        padding: 7px 12px;
+    }
+
+    /* Offcanvas Links */
+    .nav-link-responsive {
+        gap: 18px;
+    }
+
+    .nav-link-responsive a {
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    .visitors {
+        height: 55px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    /* Hero Section */
+    .hero-img {
+        height: 75vh;
+        min-height: 450px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .overlay {
+        top: 20%;
+        left: 6%;
+        right: 4%;
+    }
+
+    .hero-heading {
+        font-size: 45px;
+    }
+
+    .hero-p {
+        font-size: 13px;
+        letter-spacing: 6px;
+        margin-left: 5px;
+    }
+
+    .hero-p-2 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .hero-btn {
+        padding: 8px 25px;
+        font-size: 13px;
+    }
+}
+
+
+/* ========== SMALL MOBILE ========== */
+
+@media (max-width: 576px) {
+
+    .responsive-nav-section {
+        height: 58px;
+        padding: 0 10px;
+    }
+
+    .logo-img {
+        height: 58px;
+    }
+
+    .hero-img {
+        height: 65vh;
+        min-height: 400px;
+        object-position: center;
+    }
+
+    .overlay {
+        top: 22%;
+        left: 5%;
+        right: 3%;
+    }
+
+    .hero-heading {
+        font-size: clamp(27px, 7vw, 36px);
+        line-height: 1.2;
+    }
+
+    .hero-p {
+        font-size: 11px;
+        letter-spacing: 4px;
+        margin-left: 3px;
+        margin-bottom: 5px;
+    }
+
+    .hero-p-2 {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 18px;
+    }
+
+    .hero-btn {
+        padding: 8px 18px;
+        font-size: 11px;
+        border-radius: 8px;
+    }
+
+    .hero-btn-icon {
+        padding-left: 7px;
+    }
+
+    .nav-link-responsive {
+        gap: 15px;
+    }
+
+    .nav-link-responsive a {
+        font-size: 16px;
+    }
+
+    .visitors {
+        height: 45px;
+    }
+}
+
+
+/* ========== EXTRA SMALL MOBILE ========== */
+
+@media (max-width: 380px) {
+
+    .hero-heading {
+        font-size: 26px;
+    }
+
+    .hero-p {
+        font-size: 9px;
+        letter-spacing: 3px;
+    }
+
+    .hero-p-2 {
+        font-size: 11px;
+    }
+
+    .hero-img {
+        height: 60vh;
+        min-height: 380px;
+    }
+
+    .overlay {
+        top: 20%;
+    }
+}
