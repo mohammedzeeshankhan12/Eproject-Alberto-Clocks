@@ -8,6 +8,7 @@ body{
 }
 .logo-img{
     height: 18vh;
+    cursor: pointer;
 }
 .visitors{
     height: 10vh;

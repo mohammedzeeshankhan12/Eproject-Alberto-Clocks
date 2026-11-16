@@ -1,90 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Our-E-project.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css" integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="Our-E-project.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+      integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <!-- responsive logo -->
-     <div class="responsive-nav-section d-lg-none px-2 align-items-center" >
-       <div class="logo">
-         <img class="logo-img" src="e-project-logo-removebg-preview.png" alt="">
-        </div>
-    <!-- offcanvas -->
-     <button class="btn offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></button>
+    <div class="responsive-nav-section d-lg-none px-2 align-items-center">
+      <div class="logo">
+        <img
+          class="logo-img"
+          src="e-project-logo-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <!-- offcanvas -->
+      <button
+        class="btn offcanvas-btn"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
 
-<div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasRightLabel"><span><i class="fa-solid fa-bars" style="color: rgb(255, 199, 0);"></i></span> Menu</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <!-- nav link and visitors -->
-      <div class="nav-link">
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            <span
+              ><i class="fa-solid fa-bars" style="color: rgb(255, 199, 0)"></i
+            ></span>
+            Menu
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <!-- nav link and visitors -->
+          <div class="nav-link">
             <nav class="nav-link-responsive">
-                <a href="">home</a>
-                <a href="">products</a>
-                <a href="">technology</a>
-                <a href="">store locator</a>
-                <a href="">support</a>
-                <a href="">about us</a>
-                <a href="">contact us</a>
+              <a href="">home</a>
+              <a href="">products</a>
+              <a href="">technology</a>
+              <a href="">store locator</a>
+              <a href="">support</a>
+              <a href="">about us</a>
+              <a href="">contact us</a>
             </nav>
+          </div>
+
+          <div class="visitors">
+            <img class="visitors" src="visitors.png" alt="" />
+          </div>
         </div>
-         
-        <div class="visitors">
-        <img class="visitors" src="visitors.png" alt="">
-        </div>
-        </div>
-    <!-- nav link and visitors end -->
-  </div>
-</div>
+        <!-- nav link and visitors end -->
+      </div>
+    </div>
     <!-- offcanvas end -->
     <div class="nav-section d-none d-lg-flex px-5" data-aos="fade-down">
-        <div class="logo">
-         <img class="logo-img" src="e-project-logo-removebg-preview.png" alt="">
-        </div>
-        <div class="nav-link">
-            <nav>
-                <a href="">home</a>
-                <a href="">products</a>
-                <a href="">technology</a>
-                <a href="">store locator</a>
-                <a href="">support</a>
-                <a href="">about us</a>
-                <a href="">contact us</a>
-            </nav>
-        </div>
-         
-        <div class="visitors">
-        <img class="visitors" src="visitors.png" alt="">
-        </div>
+      <div class="logo">
+        <img
+          class="logo-img"
+          src="e-project-logo-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <div class="nav-link">
+        <nav>
+          <a href="">home</a>
+          <a href="">products</a>
+          <a href="">technology</a>
+          <a href="">store locator</a>
+          <a href="">support</a>
+          <a href="">about us</a>
+          <a href="">contact us</a>
+        </nav>
+      </div>
+
+      <div class="visitors">
+        <img class="visitors" src="visitors.png" alt="" />
+      </div>
     </div>
     <div class="hero-section">
-        <div class="banner">
-            <img class="hero-img" src="hero-.jpg" alt="">
-        </div>
-        <div class="overlay">
-            <p class="hero-p">the art of time</p>
-            <h1 class="hero-heading" data-aos="fade-right">TimeLess Craft. <br>
-           <span class="golden">Enduring Elegence</span>
-            </h1>
-            <p class="hero-p-2" data-aos="fade-up">discover exceptional timepieces crafted for <br>
-             those who appreciate true luxury.</p>
-             <button class="hero-btn" data-aos="flip-left">Explore Collection<span class="hero-btn-icon"><i class="fa-solid fa-arrow-right-long" style="color: rgb(0, 0, 0);"></i></span></button>
-        </div>
+      <div class="banner">
+        <img class="hero-img" src="hero-.jpg" alt="" />
+      </div>
+      <div class="overlay">
+        <p class="hero-p">the art of time</p>
+        <h1 class="hero-heading" data-aos="fade-right">
+          TimeLess Craft. <br />
+          <span class="golden">Enduring Elegence</span>
+        </h1>
+        <p class="hero-p-2" data-aos="fade-up">
+          discover exceptional timepieces crafted for <br />
+          those who appreciate true luxury.
+        </p>
+        <button class="hero-btn" data-aos="flip-left">
+          Explore Collection<span class="hero-btn-icon"
+            ><i
+              class="fa-solid fa-arrow-right-long"
+              style="color: rgb(0, 0, 0)"
+            ></i
+          ></span>
+        </button>
+      </div>
     </div>
 
-      <!-- SECTION COLLECTIONS START HERE  -->
+    <!-- SECTION COLLECTIONS START HERE  -->
     <section class="collection">
       <h4>OUR COLLECTIONS</h4>
-       
 
       <div class="collection-img">
         <div class="work">
@@ -95,7 +147,8 @@
               <p>Classic designs.</p>
             </div>
             <a href="#" class="arrow-btn"
-              ><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+              ><i class="fa-sharp fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
 
@@ -107,7 +160,8 @@
               <p>Premium timepieces.</p>
             </div>
             <a href="#" class="arrow-btn"
-              ><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+              ><i class="fa-sharp fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
 
@@ -119,7 +173,8 @@
               <p>Modern technology.</p>
             </div>
             <a href="#" class="arrow-btn"
-              ><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+              ><i class="fa-sharp fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
 
@@ -131,21 +186,21 @@
               <p>Elegant for every space.</p>
             </div>
             <a href="#" class="arrow-btn"
-              ><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+              ><i class="fa-sharp fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
-
       </div>
     </section>
     <!-- SECTION COLLECTIONS END HERE  -->
-     
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    AOS.init({
+      AOS.init({
         duration: 1000,
-        once: true
-    });
-</script>
-</body>
+        once: true,
+      });
+    </script>
+  </body>
 </html>
